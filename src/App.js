@@ -1,19 +1,20 @@
 import React from 'react';
 import './App.css';
-import Counter from './Componets/Counter'
+import { Hello } from './Componets/Hello';
+/*import Counter from './Componets/Counter'
 import { Greet } from './Componets/Greet';
-import { Welcome } from './Componets/Welcome';
+import { Welcome } from './Componets/Welcome';*/
 function App() {
   return (
     <div className="App">
       hello to new world
       <hr />
       <br/>
-      <Greet />
-      
-      <Counter />
+      {/*<Greet />*/}
+      <Hello/>
+      {/*<Counter />
       <br/>
-      <Welcome/>
+      <Welcome/>*/}
     </div>
   );
 }
