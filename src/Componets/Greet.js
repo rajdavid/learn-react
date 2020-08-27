@@ -14,5 +14,10 @@ import React from 'react'
 
 // es6 way of writing functional component
 //using arrow function
-const Greet = () => <h1>Click Counter ...</h1>
-export default Greet
+// const Greet = () => <h1>Click Counter ...</h1>
+// export default Greet
+
+// named export
+
+export const Greet = () => <h1>Click Counter ...</h1>
+
