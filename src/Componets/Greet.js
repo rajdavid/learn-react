@@ -19,5 +19,14 @@ import React from 'react'
 
 // named export
 
-export const Greet = () => <h1>Click Counter ...</h1>
-
+export const Greet = (props) => {
+    console.log(props)
+    return (
+        <div>
+            <h3>
+                {props.name}  is {props.heroName}
+            </h3>
+            <h4>{props.children}</h4>
+            </div>
+        )
+}
