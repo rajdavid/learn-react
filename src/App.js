@@ -1,34 +1,16 @@
 import React from 'react';
 import './App.css';
-//import { Hello } from './Componets/Hello';
-/*import Counter from './Componets/Counter'*/
-import { Greet } from './Componets/Greet';
-import { Welcome } from './Componets/Welcome';
-function App() {
+//import App1 from './service/App1'
+import Counter from './Componets/Counter';
+import State from './service/State';
+  
+  function App() {
   return (
     <div className="App">
-      hello to new world
+      {/*<App1 />*/}
+      <State />
       <hr />
-      <br/>
-      <Greet name="Bruce" heroName=" Batman">
-        <p>this is childeren props</p>
-      </Greet>
-
-      <Greet name="Clark" heroName="Batman">
-        <button>Action</button>
-      </Greet>
-      <br/>
-      <br/>
-      
-      <hr/>
-      <Welcome name="Bruce"  heroName="Batman"/>
-      <Welcome name="Clark" heroName="Superman"/>
-      
-      
-      {/*<Hello/>*/}
-      {/*<Counter />
-      <br/>*/}
-      
+      <Counter/>
     </div>
   );
 }
