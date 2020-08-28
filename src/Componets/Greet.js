@@ -19,12 +19,12 @@ import React from 'react'
 
 // named export
 
-export const Greet = (props) => {
+export const Greet = ({name ,heroName  }) => {
     console.log(props)
     return (
         <div>
             <h3>
-                {props.name}  is {props.heroName}
+                {name}  is {heroName}
             </h3>
             <h4>{props.children}</h4>
             </div>

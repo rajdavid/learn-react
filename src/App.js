@@ -3,6 +3,8 @@ import './App.css';
 //import App1 from './service/App1'
 import Counter from './Componets/Counter';
 import State from './service/State';
+import FunctionClick from './Componets/FunctionClick';
+import ClassClick from './Componets/ClassClick';
   
   function App() {
   return (
@@ -10,7 +12,11 @@ import State from './service/State';
       {/*<App1 />*/}
       <State />
       <hr />
-      <Counter/>
+      <Counter />
+      <hr />
+      <FunctionClick />
+      <hr />
+      <ClassClick/>
     </div>
   );
 }
