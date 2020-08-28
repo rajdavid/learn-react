@@ -5,6 +5,7 @@ import Counter from './Componets/Counter';
 import State from './service/State';
 import FunctionClick from './Componets/FunctionClick';
 import ClassClick from './Componets/ClassClick';
+import EventBind from './Componets/EventBind';
   
   function App() {
   return (
@@ -16,7 +17,9 @@ import ClassClick from './Componets/ClassClick';
       <hr />
       <FunctionClick />
       <hr />
-      <ClassClick/>
+      <ClassClick />
+      <hr />
+      <EventBind/>
     </div>
   );
 }
