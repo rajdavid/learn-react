@@ -17,11 +17,20 @@ function NameList() {
             id :3,
             name: 'diana ',
             skill:'angular'        }]
+            
+    const persons = person.map(person => <Person key={person.id} person={person} />)
     
-    const persons = person.map(person => <Person person={person}/>)
+    const nameLi = ['Ravi', 'Raj', 'Redbull']
+    const nameList = nameLi.map((name, index) => <h2 key={index}>{index} {name}</h2>)
     return (
-        <div>{persons}</div>
+        <div>
+            {nameList}
+        </div>
     )
+    // return (
+    //     <div>{persons}</div>
+    
+    // )
 }
 
 export default NameList
