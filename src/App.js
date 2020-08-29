@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
+//import FragmentDemo from './Componets/FragmentDemo';
+import Table from './Componets/Table';
 //import Form from './Componets/Form';
-import LifeCycleA from './Componets/LifeCycleA';
+//import LifeCycleA from './Componets/LifeCycleA';
 
 //import Stylesheet from './Componets/StyleSheet'
 //import Inline from './Componets/Inline';
@@ -39,9 +41,11 @@ import LifeCycleA from './Componets/LifeCycleA';
       <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1>
       <Form/>
+      <LifeCycleA/>
+      <FragmentDemo/>
       */}
 
-      <LifeCycleA/>
+      <Table/>
       
 
     </div>
