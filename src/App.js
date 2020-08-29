@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Form from './Componets/Form';
+//import Form from './Componets/Form';
+import LifeCycleA from './Componets/LifeCycleA';
 
 //import Stylesheet from './Componets/StyleSheet'
 //import Inline from './Componets/Inline';
@@ -36,9 +37,12 @@ import Form from './Componets/Form';
       <Stylesheet primary={true}/>
       <Inline />
       <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>*/}
-
+      <h1 className={styles.success}>Success</h1>
       <Form/>
+      */}
+
+      <LifeCycleA/>
+      
 
     </div>
   );
