@@ -1,6 +1,13 @@
 import React from 'react';
 import './App.css';
-import NameList from './Componets/NameList';
+
+import Stylesheet from './Componets/StyleSheet'
+import Inline from './Componets/Inline';
+
+import './styleApp.css'
+
+import styles from './appStyles.module.css'
+//import NameList from './Componets/NameList';
 //import ParentComponent from './Componets/ParentComponent';
 //import App1 from './service/App1'
 // import Counter from './Componets/Counter';
@@ -23,8 +30,12 @@ import NameList from './Componets/NameList';
       <hr />
       <EventBind/>
       <ParentComponent/>
-        <UserGreeting/>*/}
-      <NameList/>
+        <UserGreeting/>
+      <NameList/>*/}
+      <Stylesheet primary={true}/>
+      <Inline />
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
 
     </div>
   );
