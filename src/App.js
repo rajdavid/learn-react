@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import Form from './Componets/Form';
 
-import Stylesheet from './Componets/StyleSheet'
-import Inline from './Componets/Inline';
+//import Stylesheet from './Componets/StyleSheet'
+//import Inline from './Componets/Inline';
 
-import './styleApp.css'
+//import './styleApp.css'
 
-import styles from './appStyles.module.css'
+//import styles from './appStyles.module.css'
 //import NameList from './Componets/NameList';
 //import ParentComponent from './Componets/ParentComponent';
 //import App1 from './service/App1'
@@ -31,11 +32,13 @@ import styles from './appStyles.module.css'
       <EventBind/>
       <ParentComponent/>
         <UserGreeting/>
-      <NameList/>*/}
+      <NameList/>
       <Stylesheet primary={true}/>
       <Inline />
       <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
+      <h1 className={styles.success}>Success</h1>*/}
+
+      <Form/>
 
     </div>
   );
