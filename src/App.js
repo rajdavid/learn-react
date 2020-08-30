@@ -1,7 +1,12 @@
 import React from 'react';
 import './App.css';
+import FRParent from './Componets/FRParent';
+//import PureComp from './Componets/PureComp';
+//import ParentComp from './Componets/ParentComp';
+//import RefsDemo from './Componets/RefsDemo';
+//import FocusInput from './Componets/FocusInput';
 //import FragmentDemo from './Componets/FragmentDemo';
-import Table from './Componets/Table';
+//import Table from './Componets/Table';
 //import Form from './Componets/Form';
 //import LifeCycleA from './Componets/LifeCycleA';
 
@@ -43,10 +48,14 @@ import Table from './Componets/Table';
       <Form/>
       <LifeCycleA/>
       <FragmentDemo/>
-      */}
-
       <Table/>
+      <PureComp/>
+      <ParentComp/>
+      <RefsDemo />
+      <FocusInput/>
+      */}
       
+      <FRParent/>
 
     </div>
   );
